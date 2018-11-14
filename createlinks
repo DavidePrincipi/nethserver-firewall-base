@@ -183,3 +183,7 @@ validator_actions('fwrule-modify', qw(
     fwrule-trafficshaping 20
     fwrule-localservice   30
 ));
+
+validator_actions('logical-interface-create', qw(
+    fwzone-logicalinterface 20
+));
